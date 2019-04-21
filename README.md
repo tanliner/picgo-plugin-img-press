@@ -1,6 +1,6 @@
-## picgo-plugin-picgo-plugin-img-press
+## picgo-plugin-img-press
 
-This is an GUI picgo-plugin, to compression `png` image for github, tineypng script you should install first
+This is an GUI picgo-plugin, to compression `png` image for github, [tinypng](https://github.com/tanliner/tinypng) script you should install first
 
 the [PicGo-Core](https://github.com/PicGo/PicGo-Core) and GUI project [PicGo](https://github.com/Molunerfinn/PicGo/), [PicGoApi](https://picgo.github.io/PicGo-Core-Doc/zh/api/)
 
@@ -18,7 +18,7 @@ config file of [PicGo] application: ~/Library/Application Support/picgo/data.jso
 Use PicGo plugin template to build a npm project [picgo-template-plugin](https://picgo.github.io/PicGo-Core-Doc/zh/dev-guide/cli.html#%E4%BD%BF%E7%94%A8%E6%8F%92%E4%BB%B6%E6%A8%A1%E6%9D%BF)
 
 ```
-// 必须以picgo-plugin开头
+// picgo-plugin must be the prefix
 mkdir picgo-plugin-project-name
 picgo init plugin picgo-plugin-project-name
 ```
@@ -43,4 +43,4 @@ tail -f picgo.log
 
 ``` 
 when you built done, the PicGo will figure out
-![](https://raw.githubusercontent.com/tanliner/picgo-plugin-img-press/master/img/plugin-overview.png)
+![](https://raw.githubusercontent.com/tanliner/picgo-plugin-img-press/master/img/plugin-overview-compressed.png)
